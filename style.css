@@ -7,7 +7,7 @@ body,html{
     height: 100%;
     width: 100%;
     background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 21%, rgba(197,210,213,1) 100%, rgba(25,26,27,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 21%, rgba(197,210,213,1) 100%, rgba(25,26,27,1) 100%);
 
 
     
@@ -45,8 +45,8 @@ nav{
 }
 
 .navlogo{
-    margin-left: 0;
-    color: white;
+     margin-left: 0;
+     color: white;
     
     >span{
          font-family: 'Bodoni Moda', serif;
@@ -54,18 +54,18 @@ nav{
          font-weight: 900;
          color: rgba(207, 183, 183, 0.973);
     }
-    cursor: pointer;
- font-family: 'Montserrat', sans-serif;
- letter-spacing: 0.5vh;
- font-size:medium;
- font-weight: 400;
-  position: absolute;
- left: 6vw;
- top: 2vh;
- &:hover{
-    scale: 1.1;
+     cursor: pointer;
+     font-family: 'Montserrat', sans-serif;
+     letter-spacing: 0.5vh;
+     font-size:medium;
+     font-weight: 400;
+      position: absolute;
+     left: 6vw;
+     top: 2vh;
+     &:hover{
+           scale: 1.1;
     
- }
+     }
 }
 
 .rightnav{
@@ -194,14 +194,14 @@ nav{
     
 }
 .naviham{
-    display: none;
+     display: none;
 }
 @media(max-width: 480px) {
     
  
-.naviham{
-    display: block;
-}
+  .naviham{
+      display: block;
+  }
 
 
-}
+ }
